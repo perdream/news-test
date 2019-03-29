@@ -1,38 +1,31 @@
-# shuo-project
+# shuo-project--一个基于Mpvue 的简单新闻小程序
 
 > A Mpvue project
 
+##部分效果如下
+
+###注意
+> 小程序的数据来自idata api中的今日头条和腾讯视频数据，需在idata官网中注册并开通接口，获取apikey，修改config.js文件，填入相关的值
 ## Build Setup
 
 ``` bash
 # 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
+cd shuo-project
 
 # 安装依赖
-yarn
-
-# 开发时构建
-npm dev
-
-# 打包构建
-npm build
-
-# 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
-
-# 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
+npm install
 
 
-# 生成 bundle 分析报告
-npm run build --report
-```
+# 运行前端项目
+npm run dev
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 切换server文件夹下
+##安转依赖
+npm install
+
+#运行后端
+npm run dev
+#后端服务默认监听3000端口
+
+
+
