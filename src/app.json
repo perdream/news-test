@@ -1,0 +1,47 @@
+{
+  "pages": [
+  	"pages/main/main",
+  	"pages/detail/main", 
+  	"pages/newscollect/main",
+  	"pages/mine/main",	
+  	"pages/collect/main",
+  	"pages/video/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#32CD32",
+    "navigationBarTitleText": "硕哥新闻",
+    "navigationBarTextStyle": "white"
+  },
+	"plugins": {
+	    "tencentvideo": {
+	    "version": "1.2.5",
+	    "provider": "wxa75efa648b60994b"
+	  }
+	}, 	
+
+"tabBar": {  
+	"color":"#999",
+	"selectedColor":"#32CD32",
+	"borderStyle": "white",
+	"backgroundColor": "#f9f9f9", 
+	"list": [
+		 {  
+		"selectedIconPath": "static/images/icon_component_HL.png",  
+		"iconPath": "static/images/icon_component.png",  
+		"pagePath": "pages/main/main",  
+		"text": "首页"  
+		}, {  
+		"selectedIconPath": "static/images/tab_collectHL.png",  
+		"iconPath": "static/images/tab_nocollect.png",  
+		"pagePath": "pages/collect/main",  
+		"text": "视频"  
+		},{  
+		"selectedIconPath": "static/images/wechatHL.png",  
+		"iconPath": "static/images/wechat.png",  
+		"pagePath": "pages/mine/main",  
+		"text": "我的"  
+		}
+	]  
+} 
+}
